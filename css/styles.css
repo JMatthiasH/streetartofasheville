@@ -4,6 +4,14 @@ a:hover {
     color: #fff;
 }
 
+body {
+    background:url('../assets/webready/mainpage/mainpage01.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
 html,
 body {
     height: 100%;

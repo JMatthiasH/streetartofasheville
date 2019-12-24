@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/56011a86a6.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+    <script>
+        document.cookie = 'same-site-cookie=foo; SameSite=Lax';
+        document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
+    </script>
 </head>
 
 <body>
@@ -28,12 +32,6 @@
             </div>
         </header>
         <main role="main" class="inner cover">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner embed-responsive embed-responsive-21by9">
-                    <div class="carousel-item embed-responsive-item active" style="background-image: url();">
-                    </div>
-                </div>
-            </div>
         </main>
 
         <footer class="mastfoot mt-auto">
