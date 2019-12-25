@@ -2,32 +2,13 @@ a, a:focus, a:hover {
     color: #fff;
 }
 
-body {
-    /* animation: slideImg 10s linear 2s infinite alternate; */
+.bodymain {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/webready/mainpage/mainpage04.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-
-/* @keyframes slideImg {
-    20% {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/webready/mainpage/mainpage02.jpg') no-repeat center center fixed;
-    }
-    40% {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/webready/mainpage/mainpage03.jpg') no-repeat center center fixed;
-    }
-    60% {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/webready/mainpage/mainpage04.jpg') no-repeat center center fixed;
-    }
-    80% {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/webready/mainpage/mainpage05.jpg') no-repeat center center fixed;
-    }
-    100% {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/webready/mainpage/mainpage06.jpg') no-repeat center center fixed;
-    }
-} */
 
 html, body {
     height: 100%;
@@ -84,6 +65,7 @@ body {
 }
 
 .quoteFrom {
+    margin-top: -1em;
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
     text-align: right;
@@ -93,8 +75,22 @@ body {
 
 .mastfoot {
     text-align: center;
+} 
+.footer-social-links {
+    margin-bottom: 1em;
+} 
+.tw-ic {
+    margin: 1em;
 }
-
-.social-links {
-    padding-bottom: 1em;
+.ins-ic {
+    margin: 1em;
 }
+.pin-ic {
+    margin: 1em;
+}
+/* .footer-social-links a:hover{
+    color: #fff;
+}
+.footer-social-links a:hover:before{
+    background: #111;
+} */
