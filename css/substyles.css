@@ -71,28 +71,9 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.artText {
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: bolder;
-    text-transform: uppercase;
-    font-family: 'Noto Sans JP', sans-serif;
-}
 .card {
     margin: 1em;
     text-align: center;
-}
-
-.mainArt {
-    margin: .5em;
-}
-
-.filterArt {
-    margin: .5em;
-}
-
-.altArt {
-    margin: .5em;
 }
 
 .mastfoot {
