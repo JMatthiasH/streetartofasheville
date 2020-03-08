@@ -20,6 +20,10 @@ body {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
 
+.cover-container {
+    max-width: 52em;
+}
+
 .navbar-nav {
     margin-top: -1.3em;
 }
